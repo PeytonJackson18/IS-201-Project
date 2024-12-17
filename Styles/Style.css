@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(67, 64, 64);
+    background-color: teal;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {text-decoration: underline;}
+
+.justify{text-align: justify;}
+
+.homebg {
+    background-image: url('../Images/New\ background.webp');
+    background-position: top right;
+    
+
+}
+
+.box1 {
+    border: 2px rgb(232, 192, 112) solid;
+}
