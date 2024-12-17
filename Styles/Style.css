@@ -38,8 +38,10 @@ a:hover{
     border: 2px rgb(232, 192, 112) solid;
 }
 
-/* Style for links with light grey background */
-a {
+
+
+/* Style for links with light grey background only on the home page */
+.home-links a {
     color: black;
     text-decoration: none;
     background-color: lightgrey; /* Light grey background */
@@ -48,7 +50,7 @@ a {
     margin: 0 5px; /* Optional: Add space between links */
 }
 
-a:hover {
+.home-links a:hover {
     text-decoration: underline;
     background-color: grey; /* Darken the background color on hover */
 }
